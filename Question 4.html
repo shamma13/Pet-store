@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #firstfield{
+            background-color:#BA55D3;
+            border:2px solid #4B0082;
+        }
+    
+        #secondfield{
+            background-color:lightcoral;
+            border:2px solid maroon;
+        }
+    
+    </style>
+</head>
+
+<body style = "background-color:#FFDB58;">
+<header>
+    <table>
+        <tr>
+            <td><h1>Music Lover's Survey</h1></td>
+            <td><a href="musicNotes.jpg">
+                <img alt="music note" src="musicNotes.jpg" style="width:200px;">
+            </a></td>
+        </tr>
+</table>
+
+</header>
+
+    <form>
+        <fieldset id="firstfield">
+            <legend style="color:#4B0082; font-weight: bold;">Music Lover's Personal Information</legend>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname"><br><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname"><br>
+
+            <p>Gender:
+            <input type="radio"  id="fem">
+            <label for="fem">Female</label>
+            <input type="radio"  id="mal">
+            <label for="mal">Male</label>
+            </p>
+
+            <label for="age">What age category are you from?</label>
+            <select name="age" id="age">
+                <option value="less than 10">Less than 10</option>
+                <option value="10-15">10-15</option>
+                <option value="15-20">15-20</option>
+                <option value="20-30">20-30</option>
+                <option value="30 and above">30 and above</option>
+            </select>
+            <br><br>
+
+            <label for="Email">Email:</label>
+            <input type="text" id="Email">
+            </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset id="secondfield">
+            <legend style="color:maroon; font-weight: bold;">Survey Questions</legend>
+            <p>Which type of music do you listen to? (Pick as many as apply)</p>
+            <input type="checkbox" id="first">
+            <label for="first">Blues</label>
+            <input type="checkbox" id="second">
+            <label for="second">Classical music</label>
+            <input type="checkbox" id="third">
+            <label for="third">Electronic Music</label><br>
+            <input type="checkbox" id="fourth">
+            <label for="fourth">Hip Hop/Rap</label>
+            <input type="checkbox" id="fifth">
+            <label for="fifth">Pop (Popular music)</label>
+            <input type="checkbox" id="sixth">
+            <label for="sixth">Reggae</label><br>
+            <input type="checkbox" id="seventh">
+            <label for="seventh">Other</label><br><br>
+
+            <p>List your 3 favourite artist/bands:</p>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+
+            <p>If you were to win tickets which show would you like 2 tickets to? <br>
+            <input type="radio"  id="pink">
+            <label for="pink">Pink Floyd (March 24,2016)</label>
+            <input type="radio"  id="Iron">
+            <label for="Iron">Iron Maiden (April 1,2016)</label>
+            <input type="radio"  id="Janet">
+            <label for="Janet">Janet Jackson (June 17,2016)</label>
+            <input type="radio"  id="Adele">
+            <label for="Adele">Adele (September 30,2016)</label>
+            </p>
+            </fieldset>
+    </form>
+
+    <br><br>
+    <p>Thank you for taking the time to fill out our survey!</p><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    
+</body>
+</html>

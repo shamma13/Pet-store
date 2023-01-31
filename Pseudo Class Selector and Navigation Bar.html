@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Selector and Navigation Bar</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+        }
+
+        li a {
+            background-color: #eee;
+            color:black;
+            padding: 12px;
+            display: block;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: black;
+            color:white;
+        }
+
+        li a.home-active {
+            background-color: #04AA6D ;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vertical Navigation Bar</h1>
+    <p>"Home" is the current page. There are four menu items.</p>
+
+    <ul>
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+#first {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid green;
+    border-style: dotted;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#first .red {
+    color:red;
+    font-weight: bold;
+}
+
+#second {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid green;
+    border-style: dotted;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
